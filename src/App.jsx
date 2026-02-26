@@ -5,7 +5,8 @@ import CodeEditor from "./components/CodeEditor";
 import ReviewPanel from "./components/ReviewPanel";
 import "./App.css";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE =
+  "https://code-review-gen-ai-nodejs.vercel.app" || "http://localhost:8000";
 
 export default function App() {
   const [code, setCode] = useState();
